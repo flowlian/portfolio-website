@@ -4,12 +4,12 @@ Background color (lightgrey): #F9F9F9;
 Secondary Background color (White): #FFFFFF;
 */
 body {
-  background-color:#F9F9F9;
+  background-color: #F9F9F9;
   font-family: 'Nunito', sans-serif;
   font-size: 20px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: 000000;
+  color: #000000;
 }
 h1, h2, h3, h4 {
   line-height: 1.4;
@@ -37,7 +37,7 @@ img {
 }
 a {
   color: #002D75;
-  text-decoration: none; /* No underlining */
+  text-decoration: transparent; /* No underlining */
 }
 a:visited { /* visited link */
   color: #002D75;
@@ -48,7 +48,7 @@ a:focus {
   text-decoration: none;
 }
 a:active { /* selected link */
-  color: #994c30;
+  color: #F9F9F9;
 }
 
 
