@@ -13,9 +13,7 @@
 </head>
 
 <body>
-  <!-- Header -->
   <header>
-    <!-- Navigation -->
     <div class="container">
       <a href="index.html">Flowlian</a>
       <nav>
@@ -29,12 +27,13 @@
   </header>
   <main>
     <!-- This image will be added as a background later-->
-    <div class="section image">
+    <div id="background-image" class="section image">
       <picture>
         <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
         <img src="http://via.placeholder.com/1200x800" alt="My Image">
       </picture>
     </div>
+
     <div id="my-journey" class="section gray">
       <div class="container">
         <h2>My journey</h2>
@@ -50,6 +49,7 @@
         <a href="files/resume-flowlian.pdf" target="_blank" class="button-resume">Download resume</a>
       </div>
     </div>
+
     <div id="values" class="section white">
       <div class="container">
         <h2>Values</h2>
@@ -99,6 +99,7 @@
         </div>
       </div>
     </div>
+
     <div id="approach" class="section gray">
       <div class="container">
         <h2>Approach</h2>
@@ -122,6 +123,7 @@
         </div>
       </div>
     </div>
+
     <div class="section gray">
       <div class="container">
         <h2>Framework</h2>
@@ -131,6 +133,8 @@
         </picture>
       </div>
     </div>
+
+
     <div id="clients" class="section white">
       <div class="container">
         <h2>Clients</h2>
@@ -193,12 +197,9 @@
       </div>
     </div>
 
-
-    <div id="slideshow" class="section grey">
+    <div id="testimonials" class="section grey">
         <h2>Testimonials</h2>
-      <!-- Slideshow container -->
       <div class="slideshow-container">
-        <!-- Full-width slides/quotes -->
         <div class="mySlides">
           <picture>
             <img src="img/about/olga.jpg" alt="My Image">
@@ -220,11 +221,9 @@
           <p>I very much enjoyed working with Julián. He is a fast learner & thinker and a careful communicator.</p>
           <h2>Dietmar Klotz<br>Chief Technology Officer at comuny GmbH</h2>
         </div>
-        <!-- Next/prev buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <!-- Dots/bullets/indicators -->
       <div class="dot-container">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
@@ -233,7 +232,7 @@
     </div>
     <hr>
   </main>
-  <!-- Footer  -->
+
   <footer id="contact">
     <div class="container">
       <div class="row">
