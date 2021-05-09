@@ -32,3 +32,49 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+img {
+  width: 100%;
+}
+a {
+  color: #002D75;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+  color: #002D75;
+}
+a:hover,
+a:focus {
+  color: #97BFFF;
+  text-decoration: none;
+}
+a:active { /* selected link */
+  color: #994c30;
+}
+
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: transparent;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px; /* width of the border, type, color */
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button-resume{
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #000000;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px; /* width of the border, type, color */
+}
+.button-resume:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
