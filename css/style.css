@@ -67,7 +67,7 @@ a:active { /* selected link */
 }
 .button-resume{
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #000000;
+  background-color: #AAC8F8;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -75,6 +75,6 @@ a:active { /* selected link */
   border-bottom: 2px; /* width of the border, type, color */
 }
 .button-resume:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.9; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
