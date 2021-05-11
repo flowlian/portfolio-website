@@ -87,8 +87,12 @@ a:active {
 
 header {
   background-color: #ffffff;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
   padding: 10px;
   margin: 10px;
+}
+
+.logo-font {
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 700;
+color:  #000000;
 }
