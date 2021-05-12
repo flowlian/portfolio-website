@@ -28,6 +28,7 @@ h1, h2, h3, h4 {
 h1, .h1 {
 font-size: 2.75em;
 font-weight: 700;
+line-height: 1.2;
 }
 
 h2 {
@@ -102,23 +103,11 @@ header {
   padding: 10px;
   margin: 10px;
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+-moz-box-shadow:    3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+box-shadow:         3px 3px 4px 0px rgba(50, 50, 50, 0.1);
 }
 
-.logo-font {
-font-family: 'Space Grotesk', sans-serif;
-font-weight: 700;
-color:  #000000;
-}
-
-/* Layout styling */
-
-.container {
-  padding: 0 15px;
-}
-
-#work .row {
-  margin: 25px 0;
-}
 nav {
   display: inline-block;
   width: 100%;
@@ -136,4 +125,34 @@ nav > ul > li > a {
   padding: 0 15px;
   font-weight: 200;
   color: #4a4a4a;
+}
+
+.logo-font {
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 700;
+color:  #000000;
+}
+
+/* Container */
+
+.container {
+  padding: 0 15px;
+}
+
+
+
+/* Hero */
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+
+}
+
+  /* Work */
+
+#work .row {
+  margin: 25px 0;
 }
