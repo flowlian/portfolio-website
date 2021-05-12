@@ -3,7 +3,11 @@ Colors used:
 Background color (lightgrey): #F9F9F9;
 Secondary Background color (White): #FFFFFF;
 */
-body {
+
+* {
+  box-sizing: border-box;
+}
+body, .body{
   background-color: #F9F9F9;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
@@ -15,13 +19,15 @@ body {
   color: #000000;
 }
 
+/* HEADINGS */
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
 
-h1 {
-  font-size: 2.75em;
-  font-weight: 700;
+h1, .h1 {
+font-size: 2.75em;
+font-weight: 700;
 }
 
 h2 {
@@ -42,6 +48,8 @@ h4 {
 img {
   width: 100%;
 }
+
+/* LINKS */
 
 a {
   color: #002D75;
@@ -65,6 +73,8 @@ a:active {
   color: #F9F9F9;
 }
 
+/* BUTTONS */
+
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -85,14 +95,45 @@ a:active {
   color: #ffffff;
 }
 
+/* HEADER */
+
 header {
   background-color: #ffffff;
   padding: 10px;
   margin: 10px;
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
 }
 
 .logo-font {
 font-family: 'Space Grotesk', sans-serif;
 font-weight: 700;
 color:  #000000;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+#work .row {
+  margin: 25px 0;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul {
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  font-weight: 200;
+  color: #4a4a4a;
 }
