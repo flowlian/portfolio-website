@@ -181,3 +181,17 @@ color:  #000000;
 main {
   padding-top: 133px;
 }
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 10px;
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+#contact a{
+    color: #FFFFFF;
+}
