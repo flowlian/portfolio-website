@@ -3,11 +3,11 @@ Colors used:
 Background color (lightgrey): #F9F9F9;
 Secondary Background color (White): #FFFFFF;
 */
-
 * {
   box-sizing: border-box;
 }
-body, .body{
+
+body, .body {
   background-color: #F9F9F9;
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
@@ -20,7 +20,6 @@ body, .body{
 }
 
 /* HEADINGS */
-
 h1, h2, h3, h4 {
   line-height: 1.3;
 }
@@ -50,7 +49,6 @@ img {
 }
 
 /* LINKS */
-
 a {
   color: #000000;
   font-weight: 700;
@@ -72,7 +70,6 @@ a:active {
 }
 
 /* BUTTON */
-
 .button {
   background-color: #000000;
   border: none;
@@ -86,26 +83,27 @@ a:active {
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
 .button:visited {
   color: #ffffff;
 }
+
 .button:hover {
   opacity: 0.8;
   color: #ffffff;
   text-decoration: none;
 }
 
-
 /* HEADER */
-
 header {
   background-color: #ffffff;
   padding: 15px;
   margin: 10px;
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  margin: 0 auto;
+  /* No spacing to top and bottom and auto spacing to left and right */
   -webkit-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
-  -moz-box-shadow:    3px 3px 4px 0px rgba(50, 50, 50, 0.1);
-  box-shadow:         3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
   position: fixed;
   display: inline-block;
   width: 100%;
@@ -115,125 +113,137 @@ nav {
   display: inline-block;
   width: 100%;
 }
-nav > ul {
+
+nav>ul {
   display: inline-block;
   width: 100%;
   list-style-type: none;
   padding: 0;
 }
-nav > ul > li {
+
+nav>ul>li {
   display: inline-block;
 }
-nav > ul > li > a {
+
+nav>ul>li>a {
   padding: 0 15px;
   font-weight: 200;
 }
-nav > ul > li > a:hover {
+
+nav>ul>li>a:hover {
   text-decoration: underline;
 }
 
 .logo-font {
-font-family: 'Space Grotesk', sans-serif;
-font-weight: 700;
-color:  #000000;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  color: #000000;
 }
 
 /* Container */
-
 .container {
   padding: 0 10px;
 }
 
 /* Index */
-
 /* Hero */
 #hero {
   background-color: #F9F9F9;
   display: inline-block;
   width: 100%;
 }
+
 #intro {
   background-color: #FFFFFF;
   display: inline-block;
   width: 100%;
 }
-#intro h1{
+
+#intro h1 {
   font-size: 20px;
   font-weight: 300;
 }
-#intro a{
+
+#intro a {
   font-size: 20px;
   font-weight: 600;
 }
-#intro a:hover{
+
+#intro a:hover {
   text-decoration: underline;
 }
+
 /* Work */
 #work .row {
   margin: 25px 0;
 }
-#work .column{
+
+#work .column {
   background-color: #FFFFFF;
   margin: 15px 20px 20px;
   padding: 0px 0px 20px;
 }
-#work h2{
+
+#work h2 {
   font-size: 1.75em;
   font-weight: 700;
 }
-#work h3{
+
+#work h3 {
   font-size: 1.35em;
   font-weight: 400;
 }
 
 /* About */
-
-#my-journey a{
+#my-journey a {
   font-size: 20px;
   font-weight: 600;
 }
-#my-journey a:hover{
+
+#my-journey a:hover {
   text-decoration: underline;
 }
-#my-journey h2{
+
+#my-journey h2 {
   font-size: 1.75em;
   font-weight: 700;
 }
-
 
 #values {
   background-color: #FFFFFF;
   display: inline-block;
   width: 100%;
 }
-#values h2{
+
+#values h2 {
   font-size: 1.75em;
   font-weight: 700;
 }
-#values p{
+
+#values p {
   text-align: center;
 }
 
-#values .column{
+#values .column {
   text-align: center;
 }
 
-#approach .column{
+#approach .column {
   background-color: #ffffff;
   padding: 15px 0px;
   margin: 0px;
 }
+
 #clients {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-#clients .column{
-text-align: center;
+#clients .column {
+  text-align: center;
 }
 
 #Testimonials {
-background-color: #ffffff;
-
+  background-color: #ffffff;
 }
 
 .Slides h2 {
@@ -241,15 +251,17 @@ background-color: #ffffff;
   font-weight: 600;
 }
 
-#contact a{
-    color: #FFFFFF;
+#contact a {
+  color: #FFFFFF;
 }
+
 footer {
   background-color: #000000;
   color: #FFFFFF;
   padding: 10px;
   margin: 10px;
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  margin: 0 auto;
+  /* No spacing to top and bottom and auto spacing to left and right */
   position: relative;
   display: inline-block;
   width: 100%;
@@ -258,22 +270,20 @@ footer {
 }
 
 /* Connecting Elements*/
-
 #opening h1 {
   font-size: 2.25em;
   font-weight: 700;
 }
 
 /* General */
-
 main {
   padding-top: 133px;
 }
 
-section-white{
+section-white {
   background-color: #000000;
-  }
+}
 
-section-grey{
-    background-color: #F9F9F9;
-    }
+section-grey {
+  background-color: #F9F9F9;
+}
