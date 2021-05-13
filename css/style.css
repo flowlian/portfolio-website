@@ -108,12 +108,10 @@ header {
 }
 
 nav {
-  display: inline-block;
   width: 100%;
 }
 
 nav>ul {
-  display: inline-block;
   width: 100%;
   list-style-type: none;
   padding: 0;
