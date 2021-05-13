@@ -10,7 +10,7 @@ Secondary Background color (White): #FFFFFF;
 body, .body {
   background-color: #F9F9F9;
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   /* Sets the font size to 16px */
   font-weight: 300;
   /* Sets the font weight to 300 */
@@ -31,7 +31,7 @@ h1, .h1 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.75em;
   font-weight: 700;
 }
 
@@ -51,15 +51,15 @@ img {
 
 /* LINKS */
 a {
-  font-size: 16px;
-  color: #004CC5;
+  font-size: 1em;
+  color: #000000;
   font-weight: 700;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #000000;
+  color: #004CC5;
   text-decoration: none;
 }
 
@@ -123,17 +123,22 @@ nav>ul>li {
 
 nav>ul>li>a {
   padding: 0 15px;
-  font-weight: 200;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
 }
 
 nav>ul>li>a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #004CC5;
 }
+
 
 .logo-font {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
-  color: #000000;
+  color: #004CC5;
+  text-decoration: none;
 }
 
 /* Container */
@@ -156,16 +161,16 @@ nav>ul>li>a:hover {
 }
 
 #intro h1 {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
 }
 
 #intro a {
-  font-weight: 600;
+  font-weight: 300;
 }
 
 #intro a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Work */
@@ -179,9 +184,9 @@ nav>ul>li>a:hover {
   padding: 0px 0px 20px;
 }
 
-#work h2 {
-  font-size: 1.75em;
-  font-weight: 700;
+#work a {
+color: #004CC5;
+text-decoration: none;
 }
 
 #work h3 {
@@ -191,17 +196,13 @@ nav>ul>li>a:hover {
 
 /* About */
 #my-journey a {
-  font-weight: 600;
+  font-weight: 300;
 }
 
 #my-journey a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-#my-journey h2 {
-  font-size: 1.75em;
-  font-weight: 700;
-}
 
 #values {
   background-color: #FFFFFF;
@@ -209,12 +210,9 @@ nav>ul>li>a:hover {
   width: 100%;
 }
 
-#values h2 {
-  font-size: 1.75em;
-  font-weight: 700;
-}
-
 #values p {
+  font-size: 1.35em;
+  font-weight: 100;
   text-align: center;
 }
 
@@ -233,15 +231,13 @@ nav>ul>li>a:hover {
   font-weight: 100;
 }
 
-#clients {
-  background-color: #ffffff;
-}
 
 #clients .column {
   text-align: center;
 }
 
-#Testimonials {
+#testimonials {
+  text-align: center;
   background-color: #ffffff;
 }
 
@@ -252,6 +248,7 @@ nav>ul>li>a:hover {
 
 #contact a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 footer {
@@ -260,7 +257,6 @@ footer {
   padding: 10px;
   margin: 10px;
   margin: 0 auto;
-  /* No spacing to top and bottom and auto spacing to left and right */
   position: relative;
   display: inline-block;
   width: 100%;
@@ -272,6 +268,9 @@ footer {
 #opening h1 {
   font-size: 2.25em;
   font-weight: 700;
+}
+#opening a {
+  text-decoration: none;
 }
 
 /* General */
@@ -286,6 +285,11 @@ section-white {
 section-grey {
   background-color: #F9F9F9;
 }
+
+hr {
+  margin: 20px 10px;
+  opacity: 0.2;
+  }
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -301,10 +305,23 @@ Medium devices (640px and larger)
      float: right;
      margin-top: 4px;
    }
+
    body, .body {
      font-size: 18px;
    }
-}
+   .col-md-6 {
+   width: 50%;
+    }
+    [class*="col-"] {
+      float: left;
+      padding: 10px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
