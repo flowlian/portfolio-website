@@ -69,26 +69,28 @@ a:active {
 
 /* BUTTON */
 .button {
-  background-color: #004CC5;
-  border: none;
-  color: white;
+  border-color: #004CC5;
+  border: solid #004CC5 2px;
+  border-radius: 5px;
+  color: #000000;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+
 }
 
 .button:visited {
-  color: #ffffff;
+  color: #004CC5;
 }
 
 .button:hover {
   opacity: 0.8;
-  color: #ffffff;
+  color: #004CC5;
   text-decoration: none;
 }
 
@@ -137,7 +139,7 @@ nav>ul>li>a:hover {
 .logo-font {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
-  color: #004CC5;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -195,6 +197,12 @@ text-decoration: none;
 }
 
 /* About */
+
+#background-image picture{
+  display: inline-block;
+  width: 100%;
+}
+
 #my-journey a {
   font-weight: 300;
 }
