@@ -11,11 +11,8 @@ body, .body {
   background-color: #F9F9F9;
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
-  /* Sets the font size to 16px */
   font-weight: 300;
-  /* Sets the font weight to 300 */
   line-height: 1.6;
-  /* Sets the line-height to 1.6 * the font-size */
   color: #000000;
 }
 
@@ -28,6 +25,8 @@ h1, .h1 {
   line-height: 1.3;
   font-size: 2.25em;
   font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -71,13 +70,13 @@ a:active {
 .button {
   border-color: #004CC5;
   border: solid #004CC5 2px;
-  border-radius: 5px;
+  border-radius: 3px;
   color: #000000;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  
+
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -141,6 +140,7 @@ nav>ul>li>a:hover {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
+  padding: 0 15px
 }
 
 /* Container */
@@ -149,6 +149,7 @@ nav>ul>li>a:hover {
 }
 
 /* Index */
+
 /* Hero */
 #hero {
   background-color: #F9F9F9;
@@ -165,6 +166,7 @@ nav>ul>li>a:hover {
 #intro h1 {
   font-size: 1em;
   font-weight: 300;
+  margin-bottom: 0;
 }
 
 #intro a {
@@ -175,6 +177,10 @@ nav>ul>li>a:hover {
   text-decoration: none;
 }
 
+#intro .container {
+  margin-bottom: 80px;
+}
+
 /* Work */
 #work .row {
   margin: 25px 0;
@@ -182,13 +188,22 @@ nav>ul>li>a:hover {
 
 #work .column {
   background-color: #FFFFFF;
-
-  padding: 0px 0px 20px;
+  padding: 0;
+  margin-bottom: 1em;
+  border-radius: 5px;
 }
-
+#work img {
+  border-radius: 5px 5px 0 0;
+}
+#work .inner-column .content {
+  padding: 15px;
+}
 #work a {
 color: #004CC5;
 text-decoration: none;
+}
+#work h2 {
+  margin-top: 0;
 }
 
 #work h3 {
@@ -209,6 +224,9 @@ text-decoration: none;
 
 #my-journey a:hover {
   text-decoration: none;
+}
+#my-journey .container {
+  padding-bottom: 3em;
 }
 
 
@@ -257,6 +275,7 @@ text-decoration: none;
 #contact a {
   color: #FFFFFF;
   text-decoration: none;
+  font-weight: 400;
 }
 
 footer {
@@ -268,7 +287,7 @@ footer {
   position: relative;
   display: inline-block;
   width: 100%;
-  font-size: 16px;
+  font-size: 0.8em;
   font-weight: 300;
 }
 
@@ -329,6 +348,34 @@ Medium devices (640px and larger)
       clear: both;
       display: table;
     }
+    #work .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -1%;
+      margin-right: -1%;
+      }
+    #work .column {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+        }
+  #work .content {
+    display: flex;
+    flex-direction: column;
+    }
+    #work .content div{
+      margin-top: auto;
+    }
+    footer .row {
+      display: flex;
+    }
+    footer p{
+margin-top: 0;
+
+}
+
   }
 /* ==============================
 Large devices (1024px or larger)
