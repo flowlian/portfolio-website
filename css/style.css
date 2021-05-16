@@ -204,11 +204,18 @@ text-decoration: none;
 }
 #work h2 {
   margin-top: 0;
+  margin-bottom: 18px;
 }
 
 #work h3 {
   font-size: 1.35em;
   font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+#work p {
+  margin-top: 0;
+  margin-bottom: 18px;
 }
 
 /* About */
@@ -229,9 +236,7 @@ text-decoration: none;
   padding-bottom: 3em;
 }
 
-
 #values {
-  background-color: #FFFFFF;
   display: inline-block;
   width: 100%;
 }
@@ -240,6 +245,7 @@ text-decoration: none;
   font-size: 1.35em;
   font-weight: 100;
   text-align: center;
+  margin-top: 0;
 }
 
 #values .column {
@@ -248,15 +254,20 @@ text-decoration: none;
 
 #approach .column {
   background-color: #ffffff;
-  padding: 15px 0px;
-  margin: 0px;
+  padding: 0;
+  margin-bottom: 1em;
+  border-radius: 5px;
 }
 
 #approach h3 {
   font-size: 1.35em;
   font-weight: 100;
+  margin-bottom: 0;
 }
 
+#approach .content {
+  padding: 15px;
+}
 
 #clients .column {
   text-align: center;
@@ -267,7 +278,7 @@ text-decoration: none;
   background-color: #ffffff;
 }
 
-.Slides h2 {
+.mySlides h2 {
   font-size: 20px;
   font-weight: 600;
 }
@@ -277,6 +288,77 @@ text-decoration: none;
   text-decoration: none;
   font-weight: 400;
 }
+/*
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
 
 footer {
   background-color: #000000;
@@ -339,6 +421,9 @@ Medium devices (640px and larger)
    .col-md-6 {
    width: 50%;
     }
+    .col-md-3 {
+    width: 25%;
+     }
     [class*="col-"] {
       float: left;
       padding: 10px;
@@ -361,18 +446,68 @@ Medium devices (640px and larger)
         margin-left: 1%;
         margin-right: 1%;
         }
-  #work .content {
+    #work .content {
     display: flex;
     flex-direction: column;
     }
     #work .content div{
       margin-top: auto;
     }
+
+    #approach .row {
+      display:flex;
+      flex-wrap: wrap;
+      margin-left: -1%;
+      margin-right: -1%;
+      }
+    #approach .column {
+        display: flex;
+        flex-direction:column;
+        width: 31.33%;
+        margin-left: 1%;
+        margin-right: 1%;
+        }
+    #approach .content {
+    display: flex;
+    flex-direction: column;
+    }
+    #approach .content div{
+      margin-top: auto;
+    }
+
+    #values.row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -1%;
+      margin-right: -1%;
+      }
+    #values .column {
+        display: flex;
+        flex-direction: column;
+        width: 31.33%;
+        margin-left: 1%;
+        margin-right: 1%;
+        }
+    #clients.row {
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: -1%;
+          margin-right: -1%;
+          }
+    #clients .column {
+            display: flex;
+            flex-direction: column;
+            width: 31.33%;
+            margin-left: 1%;
+            margin-right: 1%;
+            }
+
+
     footer .row {
       display: flex;
     }
     footer p{
-margin-top: 0;
+    margin-top: 0;
 
 }
 
