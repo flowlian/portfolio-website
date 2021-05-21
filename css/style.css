@@ -553,6 +553,9 @@ Medium devices (640px and larger)
   .col-md-3 {
     width: 25%;
   }
+  .col-md-4 {
+    width: 33.33%;
+  }
 
   [class*="col-"] {
     float: left;
