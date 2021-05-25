@@ -17,14 +17,17 @@
 <body>
   <header>
     <div class="container">
-      <a class="logo-font" href="index.html">flowlian~</a>
+      <div id="myNavtoggle" class="navtoggle">
+        <a class="logo-font" href="index.html">flowlian~</a>
       <nav>
         <ul class="navigation">
           <li><a href="index.html">work</a></li>
           <li><a href="about.html">about</a></li>
-          <li><a href="#contact">contact</a></li>
+          <li><a href="#contact" onclick="menuToggle()">contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -160,7 +163,7 @@
           <p>Based in Friedrichshain <br>Berlin, Germany</p>
         </div>
         <div class="column col-md-2">
-          <a href="mailto:hola@flowlian.com">hola[at]flowlian.com</a>
+          <a href="mailto:hola@flowlian.com">hola[at]flowlian.com</a><br>
         </div>
         <div class="column col-md-2">
           <a href="https://www.instagram.com/flowlian/" target="_blank">
@@ -180,6 +183,8 @@
     </div>
   </footer>
 <script src="js/scripts.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>
