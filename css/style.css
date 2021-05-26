@@ -2,6 +2,8 @@
 Colors used:
 Background color (lightgrey): #F9F9F9;
 Secondary Background color (White): #FFFFFF;
+
+Brand color #17BAFF;
 */
 * {
   box-sizing: border-box;
@@ -58,7 +60,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #004CC5;
+  color: #17BAFF;
   text-decoration: none;
 }
 
@@ -68,10 +70,10 @@ a:active {
 
 /* BUTTON */
 .button {
-  border-color: #004CC5;
-  border: solid #004CC5 2px;
+  border-color: #17BAFF;
+  border: solid #17BAFF 2px;
   border-radius: 3px;
-  color: #000000;
+  color: #17BAFF;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -87,7 +89,7 @@ a:active {
 
 .button:hover {
   color: #ffffff;
-  background-color: #004CC5;
+  background-color: #17BAFF;
   text-decoration: none;
 }
 
@@ -128,7 +130,7 @@ display: none;
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+
 }
 
 .navtoggle.responsive li:last-child  {
@@ -228,7 +230,7 @@ nav>ul>li>a:hover {
 }
 
 #work a {
-  color: #004CC5;
+  color: #17BAFF;
   text-decoration: none;
 }
 
@@ -437,7 +439,6 @@ margin-top: 0.2em;
     50% { border-color: #999; }
 }
 
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -475,7 +476,7 @@ margin-top: 0.2em;
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0,0,0,0.8);
   color: white;
 }
 
@@ -504,14 +505,12 @@ margin-top: 0.2em;
 }
 
 /* Add an italic font style to all quotes */
-q {
-  font-style: italic;
-}
+q {font-style: italic;}
 
 /* Add a blue color to the author */
-.author {
-  color: cornflowerblue;
-}
+.author {color: cornflowerblue;}
+
+
 
 footer {
   background-color: #000000;
@@ -748,7 +747,7 @@ Medium devices (640px and larger)
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
   main {
     padding-top: 61px;
   }
@@ -764,6 +763,7 @@ footer .row {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
 }
 @media only screen and (min-width: 1440px) {
   main {
