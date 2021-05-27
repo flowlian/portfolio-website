@@ -10,5 +10,3 @@ x.className += ' responsive';
 x.className = 'navtoggle';
 }
 }
-
-//
