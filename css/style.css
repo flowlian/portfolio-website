@@ -189,6 +189,7 @@ nav>ul>li>a:hover {
   background-color: #F9F9F9;
   display: inline-block;
   width: 100%;
+  position: relative;
 }
 
 #hero video {
@@ -362,7 +363,13 @@ nav>ul>li>a:hover {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: 400;
-  margin-right: 0.5em;
+  font-size: 0.8em;
+  margin-right: 1em;
+}
+#contact p {
+
+  font-size: 0.8em;
+
 }
 
 #contact i {
@@ -568,7 +575,6 @@ footer {
   position: relative;
   display: inline-block;
   width: 100%;
-  font-size: 0.8em;
   font-weight: 300;
 }
 
@@ -584,7 +590,7 @@ footer {
 }
 
 #opening .row {
-  margin: 25px 0;
+  margin: 40px 0;
 }
 
 /* General */
@@ -822,7 +828,7 @@ Large devices (1024px or larger)
   }
 
   .container {
-    max-width: 900px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -844,7 +850,7 @@ Large devices (1024px or larger)
   }
 
   .container {
-    max-width: 900px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
   }
