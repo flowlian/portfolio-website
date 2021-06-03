@@ -23,13 +23,36 @@
           <ul class="navigation">
             <li><a href="work.html">work</a></li>
             <li><a href="about.html">about</a></li>
-            <li><a href="#contact" onclick="menuToggle()">contact</a></li>
+            <li><a href="#popup-article" class="open-popup" onclick="menuToggle()">contact</a></li>
             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
+  <div id="popup-article" class="popup">
+    <div class="popup__container">
+      <a href="#" class="popup__close">
+        <span class="screen-reader">close</span>
+      </a>
+      <div class="row">
+        <div class="column col-md-3">
+          <a href="mailto:juliand182@flowlian.com" target="_blank">
+          <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/flowlian/" target="_blank">
+            <i class="fab fa-instagram-square fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/flowlian/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://www.behance.net/flowlian">
+            <i class="fab fa-behance-square fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <main>
     <div id="work" class="section-gray">
