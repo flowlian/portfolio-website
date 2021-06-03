@@ -15,11 +15,29 @@
 </head>
 
 <body>
-  <main>
-    <div id="contact-modal" class="container">
+  <header>
+    <div class="container">
+      <div id="myNavtoggle" class="navtoggle">
+        <a class="logo-font" href="index.html">flowlian~</a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="work.html">work</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="#popup-article" class="open-popup" onclick="menuToggle()">contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div id="popup-article" class="popup">
+    <div class="popup__container">
+      <a href="#" class="popup__close">
+        <span class="screen-reader">close</span>
+      </a>
       <div class="row">
         <div class="column col-md-3">
-          <a href="mailto:juliand182@flowlian.com"target="_blank"
+          <a href="mailto:juliand182@flowlian.com" target="_blank">
           <i class="fas fa-envelope fa-2x"></i>
           </a>
           <a href="https://www.instagram.com/flowlian/" target="_blank">
@@ -34,6 +52,21 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+
+
+  <main>
+
+    
+
+
+
+
+
+
+
   </main>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
