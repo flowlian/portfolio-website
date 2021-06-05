@@ -669,7 +669,7 @@ POPUP
 
   display:flex;
   flex-wrap: wrap;
-
+  justify-content: center;
   position: relative;
   top: 0;
   right: 0;
@@ -697,8 +697,10 @@ POPUP
 
 .popup__container{
   box-sizing: border-box;
-  margin: auto; /* 1 */
-  overflow: auto; /* 1 */
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
