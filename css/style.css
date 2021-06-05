@@ -28,7 +28,6 @@ h1, .h1 {
   font-size: 3.5em;
   font-weight: 700;
   margin-top: 3em;
-
 }
 
 h2 {
@@ -193,39 +192,39 @@ nav>ul>li>a:hover {
 }
 
 #hero video {
-      width:100%;
-      height:100%;
-      position:absolute;
-      top:0;
-      left:0;
-      z-index:5;
-      object-fit:cover;
-      filter: grayscale(1);
-      -webkit-filter: grayscale(1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  object-fit: cover;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 
 #hero .h1 {
   position: relative;
   z-index: 20;
-  color:#FFFFFF;
+  color: #FFFFFF;
   align-items: flex-end;
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
 #hero span {
-  color:#17BAFF;
+  color: #17BAFF;
 }
 
 #hero::after {
-      width:100%;
-      height:100%;
-      content: '';
-      position:absolute;
-      z-index:10;
-      top:0;
-      left:0;
-      background:rgba(0,0,0,0.5)
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5)
 }
 
 #intro {
@@ -238,15 +237,16 @@ nav>ul>li>a:hover {
   font-size: 1em;
   font-weight: 200;
   margin-bottom: 0;
-
 }
 
 #intro a {
   font-weight: 200;
 }
+
 #intro p {
   font-weight: 200;
 }
+
 #intro span {
   font-weight: 200;
   line-height: 1.6;
@@ -369,14 +369,23 @@ nav>ul>li>a:hover {
   margin-right: 1em;
   padding: 0;
 }
+
 #contact p {
-
   font-size: 0.8em;
-
 }
 
 #contact i {
   margin-top: 0.2em;
+}
+
+#popup-article i {
+  font-size: 2.5em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#popup-article a {
+  text-decoration: none;
 }
 
 /* Animations */
@@ -526,13 +535,13 @@ nav>ul>li>a:hover {
 }
 
 /* Testimonials-Slideshow */
-
 .testimonials {
   overflow: hidden;
   width: 100%;
 }
+
 .testimonials img {
-  width:auto;
+  width: auto;
 }
 
 .testimonials ul {
@@ -542,7 +551,7 @@ nav>ul>li>a:hover {
   align-items: center;
   overflow: hidden;
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
 .testimonials ul li {
@@ -582,7 +591,6 @@ footer {
 }
 
 /* Connecting Elements*/
-
 #opening h1 {
   font-size: 2.25em;
   font-weight: 700;
@@ -597,7 +605,6 @@ footer {
 }
 
 /* General */
-
 main {
   padding-top: 61px;
 }
@@ -616,34 +623,27 @@ hr {
 }
 
 /* Contact Modal */
-
-
-
 /*
 =====
 DEPENDENCES
 =====
 */
-
 /*
 helper to reset default browser's styles from headings
 */
-
-.r-title{
-    margin-top: var(--rTitleMarginTop, 0) !important;
-    margin-bottom: var(--rTitleMarginBottom, 0) !important;
+.r-title {
+  margin-top: var(--rTitleMarginTop, 0) !important;
+  margin-bottom: var(--rTitleMarginBottom, 0) !important;
 }
 
 /*
 helper to hide elements that are available only for screen readers.
 */
-
-.screen-reader{
+.screen-reader {
   width: var(--screenReaderWidth, 1px) !important;
   height: var(--screenReaderHeight, 1px) !important;
   padding: var(--screenReaderPadding, 0) !important;
   border: var(--screenReaderBorder, none) !important;
-
   position: var(--screenReaderPosition, absolute) !important;
   clip: var(--screenReaderClip, rect(1px, 1px, 1px, 1px)) !important;
   overflow: var(--screenReaderOverflow, hidden) !important;
@@ -654,20 +654,17 @@ helper to hide elements that are available only for screen readers.
 POPUP
 =====
 */
-
 /*
 1. Creating the top and bottom gaps for the modal so that content doesn't touches window's edges
 */
-
-.popup:not(:target){
+.popup:not(:target) {
   display: none;
 }
 
-.popup:target{
+.popup:target {
   width: 100%;
   height: 100vh;
-
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
@@ -675,27 +672,25 @@ POPUP
   right: 0;
 }
 
-.popup::before{
+.popup::before {
   content: "";
   box-sizing: border-box;
   width: 100%;
   background-color: #fff;
-
   position: fixed;
   left: 0;
 }
 
-.popup::after{
+.popup::after {
   content: "";
-    width: 0;
-    height: 2px;
-    background-color: #f0f0f0;
-
-    position: absolute;
-    margin-top: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #f0f0f0;
+  position: absolute;
+  margin-top: -1px;
 }
 
-.popup__container{
+.popup__container {
   box-sizing: border-box;
   overflow: auto;
   display: flex;
@@ -703,48 +698,41 @@ POPUP
   justify-content: center;
 }
 
-
-.popup__close{
-  width: 2rem;
-  height: 10rem;
+.popup__close {
   position: absolute;
-  top: 1.5rem;
+  top: 4.5rem;
   align-items: center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+  font-size: .60em;
 }
 
 /*
 animation
 */
-
-
-@keyframes open-animation{
-
-  0%{
+@keyframes open-animation {
+  0% {
     height: 0;
     top: 50%;
   }
 
-  100%{
+  100% {
     height: 100vh;
     top: 0;
   }
 }
 
-.popup__container{
+.popup__container {
   animation: fade 1.3s ease-out .5s both;
 }
 
-@keyframes fade{
-
-  0%{
+@keyframes fade {
+  0% {
     opacity: 0;
   }
 
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -754,32 +742,28 @@ animation
 DEMO
 =====
 */
-
-
-
-p{
+p {
   margin: 0;
   line-height: 1.5;
 }
 
-p:nth-child(n+2){
+p:nth-child(n+2) {
   margin-top: 1rem;
 }
 
-.open-popup{
+.open-popup {
   text-decoration: none;
 }
 
-.page{
+.page {
   min-height: 100vh;
   display: flex;
 }
 
-.page__container{
+.page__container {
   max-width: 100%;
   margin: auto;
 }
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -811,14 +795,14 @@ Medium devices (640px and larger)
 
   body, .body {
     font-size: 18px;
-    transition:1s;
+    transition: 1s;
   }
 
   #hero .h1 {
     font-size: 5em;
     font-weight: 700;
     margin-top: 2.5em;
-    transition:1s;
+    transition: 1s;
   }
 
   .col-md-6 {
@@ -965,7 +949,6 @@ Medium devices (640px and larger)
   #opening h1 {
     margin-top: 15px;
   }
-
 
   footer .row {
     display: flex;
