@@ -27,7 +27,6 @@ h1, .h1 {
   line-height: 1;
   font-size: 3.5em;
   font-weight: 700;
-  margin-top: 3em;
 }
 
 h2 {
@@ -209,7 +208,7 @@ nav>ul>li>a:hover {
   color: #FFFFFF;
   align-items: flex-end;
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 #hero span {
@@ -231,6 +230,8 @@ nav>ul>li>a:hover {
   background-color: #FFFFFF;
   display: inline-block;
   width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #intro h1 {
@@ -256,9 +257,7 @@ nav>ul>li>a:hover {
   text-decoration: none;
 }
 
-#intro .container {
-  margin-bottom: 80px;
-}
+
 
 /* Work */
 #work .row {
@@ -310,6 +309,7 @@ nav>ul>li>a:hover {
 
 #my-journey a {
   font-weight: 300;
+
 }
 
 #my-journey a:hover {
@@ -317,7 +317,8 @@ nav>ul>li>a:hover {
 }
 
 #my-journey .container {
-  padding-bottom: 3em;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #values {
@@ -336,6 +337,10 @@ nav>ul>li>a:hover {
   text-align: center;
 }
 
+#values .container {
+  padding-bottom: 80px;
+}
+
 #approach .column {
   background-color: #ffffff;
   padding: 0;
@@ -352,9 +357,20 @@ nav>ul>li>a:hover {
 #approach .content {
   padding: 15px;
 }
+#approach .container {
+padding-bottom: 80px;
+}
+
+#framework .container {
+  padding-bottom: 80px;
+}
 
 #clients .column {
   text-align: center;
+}
+
+#clients .container {
+  padding-bottom: 80px;
 }
 
 #testimonial-slideshow {
@@ -368,14 +384,16 @@ nav>ul>li>a:hover {
   font-size: 0.8em;
   margin-right: 1em;
   padding: 0;
+  margin: 0;
 }
 
 #contact p {
   font-size: 0.8em;
+  margin: 0;
 }
 
 #contact i {
-  margin-top: 0.2em;
+  margin-top: 0;
 }
 
 #popup-article i {
@@ -571,6 +589,7 @@ nav>ul>li>a:hover {
 .testimonials-control {
   display: flex;
   justify-content: center;
+  padding-bottom: 80px;
 }
 
 .testimonials-control i {
@@ -603,6 +622,46 @@ footer {
 #opening .row {
   margin: 40px 0;
 }
+
+#opening .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#background .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#goals .container {
+  padding-bottom: 80px;
+}
+
+#team .container {
+  padding-bottom: 80px;
+}
+
+#challenges .container {
+  padding-bottom: 80px;
+}
+
+#outcomes .container {
+  padding-bottom: 80px;
+}
+
+.section-image{
+  padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* General */
 main {
