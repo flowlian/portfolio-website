@@ -10,7 +10,7 @@ Brand color #17BAFF;
 }
 
 body, .body {
-  background-color: #FaFaFa;
+  background-color: #ffffff;
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -277,6 +277,10 @@ nav>ul>li>a:hover {
 
 #work .inner-column .content {
   padding: 15px;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  border-radius: 5px 5px 5px 5px;
 }
 
 #work a {
@@ -317,7 +321,7 @@ nav>ul>li>a:hover {
 }
 
 #my-journey .container {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
@@ -335,6 +339,12 @@ nav>ul>li>a:hover {
 
 #values .column {
   text-align: center;
+}
+
+#values svg {
+
+  -webkit-filter: drop-shadow( 3px 3px 4px rgba(50, 50, 50, 0.1));
+  filter: drop-shadow( 3px 3px 4px rgba(50, 50, 50, 0.1));
 }
 
 #values .container {
@@ -356,6 +366,10 @@ nav>ul>li>a:hover {
 
 #approach .content {
   padding: 15px;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 3px 3px 4px 0px rgba(50, 50, 50, 0.1);
+  border-radius: 5px 5px 5px 5px;
 }
 #approach .container {
 padding-bottom: 80px;
@@ -372,6 +386,14 @@ padding-bottom: 80px;
 #clients .container {
   padding-bottom: 80px;
 }
+
+#clients svg {
+
+  -webkit-filter: drop-shadow( 3px 3px 4px rgba(50, 50, 50, 0.1));
+  filter: drop-shadow( 3px 3px 4px rgba(50, 50, 50, .1));
+}
+
+
 
 #testimonial-slideshow {
   text-align: center;
@@ -675,10 +697,6 @@ section-grey {
   background-color: #FaFaFa;
 }
 
-hr {
-  margin: 20px 10px;
-  opacity: 0.2;
-}
 
 /* Contact Modal */
 /*
@@ -877,7 +895,6 @@ Medium devices (640px and larger)
   }
 
   .row::after {
-    content: "";
     clear: both;
     display: table;
   }
