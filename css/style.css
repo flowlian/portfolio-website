@@ -625,7 +625,7 @@ footer {
 
 #opening .container {
   padding-top: 40px;
-  padding-bottom: 40px;
+
 }
 
 #background .container {
@@ -801,10 +801,6 @@ animation
 DEMO
 =====
 */
-p {
-  margin: 0;
-  line-height: 1.5;
-}
 
 p:nth-child(n+2) {
   margin-top: 1rem;
