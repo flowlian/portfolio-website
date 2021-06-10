@@ -91,6 +91,13 @@ a:active {
   text-decoration: none;
 }
 
+ul {
+  padding-left: 20px;
+}
+ol {
+padding-left: 20px;
+}
+
 /* HEADER */
 header {
   background-color: #ffffff;
@@ -106,7 +113,17 @@ header {
   width: 100%;
   z-index: 99999;
 }
-
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 10px;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-weight: 300;
+}
 /* Toggle Menu */
 .navtoggle li:not(:last-child) {
   display: none;
@@ -325,10 +342,6 @@ nav>ul>li>a:hover {
   padding-bottom: 80px;
 }
 
-#values {
-  display: inline-block;
-  width: 100%;
-}
 
 #values p {
   font-size: 1.35em;
@@ -381,6 +394,7 @@ padding-bottom: 80px;
 
 #clients .column {
   text-align: center;
+  padding-bottom: 80px;
 }
 
 #clients .container {
@@ -392,7 +406,6 @@ padding-bottom: 80px;
   -webkit-filter: drop-shadow( 3px 3px 4px rgba(50, 50, 50, 0.1));
   filter: drop-shadow( 3px 3px 4px rgba(50, 50, 50, .1));
 }
-
 
 
 #testimonial-slideshow {
@@ -417,6 +430,7 @@ padding-bottom: 80px;
 #contact i {
   margin-top: 0;
 }
+
 
 #popup-article i {
   font-size: 2.5em;
@@ -619,17 +633,7 @@ padding-bottom: 80px;
   padding: 1.3rem;
 }
 
-footer {
-  background-color: #000000;
-  color: #FFFFFF;
-  padding: 10px;
-  margin: 10px;
-  margin: 0 auto;
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  font-weight: 300;
-}
+
 
 /* Connecting Elements*/
 #opening h1 {
@@ -650,7 +654,6 @@ footer {
 }
 
 #background .container {
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 #goals .container {
@@ -658,6 +661,12 @@ footer {
 }
 
 #team .container {
+  padding-bottom: 80px;
+}
+#process .container {
+  padding-bottom: 80px;
+}
+#contributions .container {
   padding-bottom: 80px;
 }
 
@@ -668,18 +677,52 @@ footer {
 #outcomes .container {
   padding-bottom: 80px;
 }
+#learnings .container {
+  padding-bottom: 80px;
+}
 
-.section-image{
+.image{
+  padding-bottom: 80px;
+}
+
+/* Verimi Registration*/
+
+#problem .container {
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 
+#brief .container {
+  padding-bottom: 80px;
+}
 
+#process .container {
+  padding-bottom: 80px;
+}
+#contributions .container {
+  padding-bottom: 80px;
+}
+#constraints .container {
+  padding-bottom: 80px;
+}
+#tools .container {
+  padding-bottom: 80px;
+}
+#metodologies .container {
+  padding-bottom: 80px;
+}
+#outcomes .container {
+  padding-bottom: 80px;
+}
 
+#learnings .container {
+  padding-bottom: 80px;
+}
 
-
-
-
+#resources .container {
+  padding-bottom: 80px;
+}
 
 
 
@@ -870,6 +913,17 @@ Medium devices (640px and larger)
     transition: 1s;
   }
 
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
   #hero .h1 {
     font-size: 5em;
     font-weight: 700;
@@ -1040,11 +1094,15 @@ Large devices (1024px or larger)
   }
 
   .container {
-    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .section {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
   .social {
     margin-right: 0.5em;
   }
