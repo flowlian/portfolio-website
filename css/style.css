@@ -689,10 +689,21 @@ padding-bottom: 80px;
   padding-bottom: 80px;
 }
 
+.animation .container
+{
+  max-width: 400px;
+}
+.video .container
+{
+  max-width: 400px;
+  display: flex;
+    justify-content: center;
+}
+
 /* Verimi Registration*/
 
 #problem .container {
-  padding-top: 80px;
+
   padding-bottom: 80px;
 }
 
