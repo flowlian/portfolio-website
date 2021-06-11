@@ -40,8 +40,12 @@ h3 {
 }
 
 h4 {
-  font-size: 1.35em;
+  font-size: 1em;
   font-weight: 400;
+}
+h5 {
+  font-size: 0.8em;
+  font-weight: 300;
 }
 
 img {
@@ -723,7 +727,9 @@ padding-bottom: 80px;
 #resources .container {
   padding-bottom: 80px;
 }
-
+#resources a {
+  font-weight: 300;
+}
 
 
 
